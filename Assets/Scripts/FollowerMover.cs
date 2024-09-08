@@ -17,7 +17,7 @@ public class FollowerMover : MonoBehaviour
             _points[i] = _path.GetChild(i);
     }
     
-    public void FixedUpdate()
+    private void Update()
     {
         Transform target = _points[_currentPointIndex];
 

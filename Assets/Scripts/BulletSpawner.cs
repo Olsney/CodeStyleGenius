@@ -14,7 +14,7 @@ public class BulletSpawner : MonoBehaviour
         StartCoroutine(SpawnJob());
     }
 
-    IEnumerator SpawnJob()
+    private IEnumerator SpawnJob()
     {
         WaitForSeconds wait = new WaitForSeconds(_delay);
         
