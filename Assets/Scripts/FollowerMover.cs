@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class FollowerMover : MonoBehaviour
 {
-    [SerializeField] float _speed;
+    [SerializeField] private float _speed;
     [SerializeField] private Transform _path;
 
     private readonly float _permittedDifference = 0.1f;

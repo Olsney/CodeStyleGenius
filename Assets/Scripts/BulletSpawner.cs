@@ -7,7 +7,7 @@ public class BulletSpawner : MonoBehaviour
     [SerializeField] private float _speed;
     [SerializeField] private Bullet _prefab;
     [SerializeField] private Transform _targetToShoot;
-    [SerializeField] float _delay;
+    [SerializeField] private float _delay;
 
     private void Start()
     {
